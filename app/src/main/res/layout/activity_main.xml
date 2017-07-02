@@ -1,3 +1,12 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+
+
 <com.huihui.animframe.HuiScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -5,9 +14,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
+
+
+
+
+
     <com.huihui.animframe.HuiLinearLayout
+
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
 
         <ImageView
             android:layout_width="match_parent"
@@ -333,3 +350,17 @@
     </com.huihui.animframe.HuiLinearLayout>
 
 </com.huihui.animframe.HuiScrollView>
+
+    <TextView
+        android:textColor="@android:color/white"
+        android:text="代码地址：https://github.com/huihui4045/Android_Animframe"
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_height="wrap_content" />
+
+</FrameLayout>
